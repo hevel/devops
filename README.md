@@ -6,7 +6,7 @@ DevOps Toolkit
 ###批量管理
 - saltstack
 - ansible
-- puppet 
+- puppet
 
 ###日志管理
 - 日志采集
