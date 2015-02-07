@@ -7,6 +7,9 @@ DevOps Toolkit
 - saltstack
 - ansible
 - puppet
+- openvswitch
+- cobbler
+- vagrant
 
 ###日志管理
 - 日志采集
@@ -17,13 +20,20 @@ DevOps Toolkit
 
 ###应用容器
 - docker
+- lxc
+- solaris-zone
 
 ##虚拟化平台
-- openvswitch
+- openstack
 - vmware vsphere
 - KVM
+- ovirt
 
 ##基础服务
 - apache
 - dns
-- ....
+- openvpn
+- nginx
+- ntp
+- dhcp
+-
