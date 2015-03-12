@@ -2,12 +2,19 @@
 
 * [Introduction](README.md)
 * [运维工具](toolkit/README.md)
+<<<<<<< HEAD
    * [saltstack](toolkit/saltstack/README.md)
        * [简介及安装](toolkit/saltstack/intro.md)
        * [远程命令执行](toolkit/saltstack/remote_execution.md)
        * [配置管理](toolkit/saltstack/config_management.md)
        * [API 调用](toolkit/saltstack/API.md)
    * [ansible](toolkit/ansible.md)
+=======
+   * [saltstack](toolkit/saltstack.md)
+   * [ansible](toolkit/ansible/README.md)
+       * [Simple Guide](toolkit/ansible/ansible.md)
+       * [All Modules](toolkit/ansible/modules.md)
+>>>>>>> cc8717b473d4c7f5b873ee071b5481e6e66a3368
    * [puppet](toolkit/puppet.md)
    * [openvswitch](toolkit/openvswitch.md)
    * [cobbler](toolkit/cobbler.md)
