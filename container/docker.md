@@ -122,7 +122,7 @@ CONTAINER ID | IMAGE              | COMMAND             | CREATED      | STATUS 
 小细节
 ------
 
-###export 与save之间的不同
+### export 与save之间的不同
 
 > docker export命令用于持久化容器（不是镜像）
 > docker Save命令用于持久化镜像（不是容器）
@@ -135,8 +135,10 @@ CONTAINER ID | IMAGE              | COMMAND             | CREATED      | STATUS 
 执行命令，显示下面的内容。正你看到的，导出后再导入(exported-imported)的镜像会丢失所有的历史，而保存后再加载（saveed-loaded）的镜像没有丢失历史和层(layer)。这意味着使用导出后再导入的方式，你将无法回滚到之前的层(layer)，同时，使用保存后再加载的方式持久化整个镜像，就可以做到层回滚（可以执行docker tag <LAYER ID> <IMAGE NAME>来回滚之前的层）。
 
 
-###load与import 之间的不同
+### load与import 之间的不同
 
+- load对应save的镜像文件
+- import对应export镜像文件
 
 
 
